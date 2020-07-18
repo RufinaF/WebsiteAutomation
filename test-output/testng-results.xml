@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97019" started-at="2020-07-18T13:07:39Z" finished-at="2020-07-18T13:09:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="97019" started-at="2020-07-18T13:07:39Z" finished-at="2020-07-18T13:09:16Z">
+      <class name="com.testdemo.test_demo.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="beforeTest" is-config="true" duration-ms="45485" started-at="2020-07-18T13:07:39Z" finished-at="2020-07-18T13:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="openurl" duration-ms="9550" started-at="2020-07-18T13:08:25Z" finished-at="2020-07-18T13:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="register()[pri:1, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="register" duration-ms="8175" started-at="2020-07-18T13:08:34Z" finished-at="2020-07-18T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="details()[pri:2, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="details" duration-ms="5028" started-at="2020-07-18T13:08:42Z" finished-at="2020-07-18T13:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:3, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="login" duration-ms="11305" started-at="2020-07-18T13:08:48Z" finished-at="2020-07-18T13:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beera@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="search()[pri:4, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="search" duration-ms="3186" started-at="2020-07-18T13:08:59Z" finished-at="2020-07-18T13:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="addToCart()[pri:5, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="addToCart" duration-ms="11028" started-at="2020-07-18T13:09:02Z" finished-at="2020-07-18T13:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testdemo.test_demo.NewTest@25bbe1b6]" name="afterTest" is-config="true" duration-ms="3184" started-at="2020-07-18T13:09:13Z" finished-at="2020-07-18T13:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testdemo.test_demo.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
